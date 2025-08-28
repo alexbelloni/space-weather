@@ -9,7 +9,6 @@ Bringing the space weather subject to our table, there are many APIS or datasets
 On this project, I test some resource related to the space weather.  
 
 Events by NOAA (edited_events.json)
-https://services.swpc.noaa.gov/json
 
 |Attribute |Meaning |
 |--------------|--------------------------------------------------------------------------------------------------------|
@@ -36,21 +35,19 @@ https://services.swpc.noaa.gov/json
 |change_flag |Indicates whether there has been a recent change in the event data (1 = yes). |
 
 
-Flares and Eruptions  
+Types of Events  
+
 XRA: A general X-ray event detected by the GOES satellite system. The X-ray flux is a key indicator of solar flare intensity, and events above a certain threshold (M5) can trigger a radio blackout alert.  
 FLA: An optical flare observed in the hydrogen-alpha (H-alpha) wavelength. H-alpha is a specific reddish visible light emitted by hydrogen, and these flares are classified by their area and brightness.  
 BSL: Bright Surge on the Limb. This is a bright, transient solar feature seen at the edge (or limb) of the Sun.  
 DSF: Filament Disappearance. This occurs when a solar filament—a large, cool, and dense cloud of plasma suspended above the Sun's surface by magnetic forces—erupts or dissipates.  
 EPL: Eruptive Prominence on the Limb. This is a large, often spectacular, solar prominence that erupts from the Sun's edge into space.  
 LPS: Loop Prominence System. A system of loop-like plasma structures, often formed after a solar flare.    
-Radio Bursts  
 RSP: Sweep-frequency radio burst. A type of radio emission from the Sun that "sweeps" through a range of frequencies over time. These bursts are classified into types (e.g., Type II, III, IV) based on their characteristics.  
 RBR: Fixed-frequency radio burst. A radio burst detected at a single, fixed frequency. NOAA monitors these bursts at several standard frequencies.  
 RNS: Radio Noise Storm. A prolonged, high-intensity radio emission from the Sun, typically at meter wavelengths. 
 
-https://www.swpc.noaa.gov/sites/default/files/images/FINAL%20SWPC%20User%20Needs%20Report-1.pdf
-
-Observatory  
+Observatories  
 
 G18 and G19 refers to the GOES-18 and GOES-19, advanced environmental satellites  
 HOL	Holloman Air Force Base, New Mexico, USA	One of the SOON network observatories that records and reports solar activity.  
@@ -59,3 +56,9 @@ SAG	Sagamore Hill, Massachusetts, USA	A SOON network observatory that reports on
 SVI	San Vito, Italy	A SOON network observatory that reports on solar radio bursts.  
 LEA	Learmonth, Australia	One of the SOON observatories operated by the U.S. Air Force to monitor solar activity.
 
+References:
+
+https://services.swpc.noaa.gov/json  
+https://www.swpc.noaa.gov/content/subscription-services    
+https://www.swpc.noaa.gov/content/space-weather-glossary    
+https://www.swpc.noaa.gov/sites/default/files/images/FINAL%20SWPC%20User%20Needs%20Report-1.pdf  
